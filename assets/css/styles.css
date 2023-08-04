@@ -274,3 +274,52 @@
   width: 200px;
   border-radius: .5rem;
 }  
+/* ===== EDUCATION ===== */
+.education {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.education__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.education__item {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.education__item:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.education__subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.education__date {
+  font-size: 16px;
+  color: #999;
+}
